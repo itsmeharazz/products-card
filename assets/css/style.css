@@ -1,0 +1,166 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+img{
+     width: 100%;
+}
+
+.flex-box{
+     display: flex;
+}
+body{
+     width: 100%;
+     background-image:linear-gradient(130deg,#57579a, #2986a5) ;
+}
+.card{
+     width: 80%;
+     margin: 5em auto;
+     background-color: #fff;
+     border-radius: 0.5em;
+     justify-content: space-between;
+     box-shadow: 0 0 15px #7a7777;
+}
+.card-left{
+     width: 50%;
+     background-image:linear-gradient(90deg,#57579a, #2986a5) ;
+     border-radius: 0.5em 0 0 0.5em;
+
+}
+
+.card-left img{
+     width: 70%;
+     margin: -4.5em auto;
+}
+.dot{
+     width: 4em;
+     margin: 0 auto;
+     padding: 1em 0;
+     justify-content: space-between;
+     align-items: center;
+}
+.dot-item{
+     width: 0.6em;
+     height: 0.6em;
+     background-color: #fff;
+     border-radius: 100%;
+}
+.dot-item.fild{
+     border: 2px solid #fff;
+     background-color: transparent;
+}
+.card-right{
+     width: 50%;
+     margin: 2em 2em 5em;
+     position: relative;
+}
+
+.card-right .price{
+justify-content: space-between;
+align-items: center;
+font-size: 1.5em;
+font-weight:600;
+margin-bottom: 1em;
+}
+.old{
+     color: #ea4040;
+     text-decoration: line-through #000;
+}
+.new{
+     color: #8787e5;
+}
+.shot-des{
+     color: #605e5e;
+     margin-bottom:1em;
+     line-height: 1.3em;
+}
+.color{
+     width: 70%;
+     height: 2em;
+     margin-block: 2em;
+     justify-content: space-between;
+     align-items: center;
+     gap: 2px;
+}
+.head,.colon{
+     font-size: 1.5em;
+     font-weight: 600;
+}
+.colors{
+     width: 13em;
+     justify-content: space-between;
+     align-items: center;
+}
+.paint{
+     width: 1.5em;
+     height: 1.5em;
+     border-radius: 100%;
+     cursor: pointer;
+}
+.block{
+     background-color: #000;
+}
+.blue{
+     background-color: #2f5cf0;
+}
+.gray{
+     background-color: #d9d9d9;
+}
+.red{
+     background-color: #944a4a;
+}
+.golden{
+     background-color: rgb(210, 182, 18);
+}
+.quantity{
+height: 3em;
+align-items: center;
+}
+.fild{
+     justify-content: space-around;
+     align-items: center;
+     border: 2px solid #2f99f0;
+     padding: 0.5em;
+     border-radius: 5em;
+}
+.fild input{
+     width: 6em;
+     height: 2em;
+     padding: 1em;
+     border: none;
+     outline: none;
+     text-align: center;
+}
+.fild i{
+     cursor: pointer;
+     color: #2f99f0;
+}
+
+.right-foot{
+     width: 80%;
+     justify-content: space-between;
+     align-items: center;
+     position: absolute;
+     left: 9px;
+     bottom: -30%;
+}
+.right-foot button{
+     width: 15em;
+     padding:1em;
+     display: block;
+     background-image:linear-gradient(90deg,#57579a, #2986a5) ;
+     color: #fff;
+     border: none;
+     border-radius: 10em;
+     cursor: pointer;
+}
+
+.right-foot i{
+     background-image:linear-gradient(90deg,#57579a, #2986a5) ;
+     color: #fff;
+     padding: 1em;
+     border-radius: 50%;
+     cursor: pointer;
+}git 
